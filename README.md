@@ -1,4 +1,4 @@
-# NWEA's Platform Team code sample test
+# Code Sample
 
 This test attempts to simulate, in a very basic manner, the development work required to implement lambdas that use 
 the DynamoDB database to save and read data.  
