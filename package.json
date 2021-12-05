@@ -1,0 +1,27 @@
+{
+  "name": "nwea-platform-team-interview-code-sample",
+  "version": "1.0.0",
+  "description": "A coding exercise for potential hires to NWEA's Platform Team",
+  "scripts": {
+    "test": "AWS_XRAY_CONTEXT_MISSING=LOG_ERROR node_modules/mocha/bin/_mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@stash.americas.nwea.pvt/~nathan.harrower/platform-team-interview-code-sample.git"
+  },
+  "keywords": [
+    "NWEA"
+  ],
+  "author": "NWEA",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "aws-sdk": "2.586.0",
+    "aws-xray-sdk": "2.5.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "mocha": "6.2.2",
+    "uuid": "3.3.3"
+  }
+}
